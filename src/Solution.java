@@ -74,7 +74,7 @@ public class Solution {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\anguskwong\\code\\java\\LibAndRoad\\libandroad_testcase_4.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("/PATH/TO/TEST/DATA"));
         String str = "";
         while((str=br.readLine())!=null && str.length()!=0) {
             int q = Integer.parseInt(str);
